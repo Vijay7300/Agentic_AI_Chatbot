@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# FAISS / local vector data
+faiss_index/
+*.faiss
+*.pkl
+
+# Temporary files
+*.tmp
+temp/
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
