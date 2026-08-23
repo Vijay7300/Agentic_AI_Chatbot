@@ -30,6 +30,8 @@ from dotenv import load_dotenv
 import math
 import os
 import requests
+import streamlit as st
+
 
 
 load_dotenv()
@@ -37,9 +39,18 @@ load_dotenv()
 
 
 # LLM
+
+groq_api_key = os.getenv("GROQ_API_KEY")
+
+if not groq_api_key:
+    groq_api_key = st.secrets.get("GROQ_API_KEY")
+
+if not groq_api_key:
+    raise ValueError("GROQ_API_KEY is not configured.")
+
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key=groq_api_key,
     temperature=0
 )
 
