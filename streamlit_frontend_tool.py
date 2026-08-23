@@ -16,7 +16,7 @@ from langchain_core.messages import (
 
 import uuid
 
-
+st.write("GROQ SECRET EXISTS:", "GROQ_API_KEY" in st.secrets)
 
 # ============================================================
 # Custom UI Styling
