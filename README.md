@@ -106,14 +106,10 @@ The chatbot successfully demonstrates:
 * ✅ LangSmith workflow tracing
 * ✅ Interactive Streamlit interface
 
+
 ### 🎥 Project Demo
 
-<!-- Add your video link below -->
-
-[![Agentic AI Chatbot Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-> Replace `YOUR_VIDEO_ID` with your YouTube video's ID.
-
+[▶️ Watch Agentic AI Chatbot Demo](./demo/Agentic%20AI%20Chatbot_.mp4)
 ---
 
 ## 💻 Technology Stack
@@ -260,7 +256,7 @@ Answer
 
 **Vijay Prajapati**
 
-M.Tech – Data & Computational Sciences
+M.Sc-M.Tech – Data & Computational Sciences at
 IIT Jodhpur
 
 GitHub:
@@ -272,7 +268,7 @@ GitHub:
 
 **Project:** Agentic AI Chatbot
 **Author:** Vijay Prajapati
-**Development:** 2026
+**Development:** 24|8|2026
 **Status:** 🚧 Active Development
 
 ---
@@ -282,29 +278,3 @@ GitHub:
 This project is licensed under the MIT License.
 
 ````
-
-### 🎥 About your video
-
-If your video is on **YouTube**, replace:
-
-```markdown
-[![Agentic AI Chatbot Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-````
-
-with your actual YouTube video ID.
-
-For example, if your video is:
-
-```text
-https://www.youtube.com/watch?v=AbCd1234
-```
-
-then use:
-
-```markdown
-[![Agentic AI Chatbot Demo](https://img.youtube.com/vi/AbCd1234/0.jpg)](https://www.youtube.com/watch?v=AbCd1234)
-```
-
-This gives your README a **clickable video thumbnail**, which looks much better than simply pasting a URL.
-
-One thing I'd change in the above before you publish: **don't list "Long-Term Memory" as currently implemented yet**. Your current PostgreSQL setup is providing persistent LangGraph conversation/checkpoint state; the dedicated LTM feature is still a future improvement. That distinction will make your README technically accurate.
