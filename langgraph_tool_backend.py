@@ -42,7 +42,7 @@ load_dotenv()
 
 groq_api_key = os.getenv("GROQ_API_KEY")
 
-if not groq_api_key:
+if not groq_api_key and hasattr(st, "secrets"):
     groq_api_key = st.secrets.get("GROQ_API_KEY")
 
 if not groq_api_key:
