@@ -107,12 +107,6 @@ The chatbot successfully demonstrates:
 * ✅ Interactive Streamlit interface
 
 
-### 🎥 Project Demo
-
-[▶️ ![Uploading Agentic_AI_Chatbot_8_to_10MB.gif…]()
-
-)
----
 
 ## 💻 Technology Stack
 
