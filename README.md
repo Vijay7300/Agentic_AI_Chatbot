@@ -109,7 +109,8 @@ The chatbot successfully demonstrates:
 
 ### 🎥 Project Demo
 
-[▶️ Watch Agentic AI Chatbot Demo](<img width="900" height="458" alt="Agentic_AI_Chatbot_8_to_10MB" src="https://github.com/user-attachments/assets/892aa674-8348-4657-adb4-66121f252766" />
+[▶️ ![Uploading Agentic_AI_Chatbot_8_to_10MB.gif…]()
+
 )
 ---
 
