@@ -106,6 +106,10 @@ The chatbot successfully demonstrates:
 * ✅ LangSmith workflow tracing
 * ✅ Interactive Streamlit interface
 
+### 🎥 Agentic AI Chatbot Demo
+
+![Agentic AI Chatbot Demo](assets/demo.gif)
+
 
 
 ## 💻 Technology Stack
